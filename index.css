@@ -1,0 +1,20 @@
+/* @tailwind base;
+/* @tailwind components;
+/* @tailwind utilities; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply m-0 font-sans antialiased bg-gray-900 text-white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+}
